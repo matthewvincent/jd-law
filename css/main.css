@@ -1,0 +1,241 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+	font-family: Open Sans;
+	overflow-x: hidden;
+}
+
+#header {
+	text-align: center;
+	width: 100%;
+	height: 700px;
+	background-image: url("../img/header.png");
+	margin-right: none;
+}
+#header h1 {
+	font-weight: bolder;
+}
+.navbar {
+	background-color: #955251;
+	-webkit-box-shadow: 0px 0px 8px 2px #000000;
+       -moz-box-shadow: 0px 0px 8px 2px #000000;
+            box-shadow: 0px 0px 8px 2px #000000;
+}
+.navbar-brand {
+	color: white;
+}
+.navbar-brand:hover {
+	text-decoration: none;
+	color: white;
+}
+.icon-bar {
+	background-color: white;
+}
+.bio-pic {
+	padding:3px;
+	background-color: white;
+	border-radius: 2px;
+	border: 2px solid #58646D;
+	margin-top: 60px;
+}
+#bio {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#bio h4 {
+	font-weight: bold;
+}
+#memberships {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #58646D;
+	color: white;
+}
+.main-wrapper {
+	margin: auto;
+	overflow: hidden;
+}
+.membership-text {
+	float: left;
+}
+.gavel-icon {
+	margin: 40px;
+	margin-left: 80px;
+	text-align: center;
+	padding-top: 15px;
+	padding-right: 10px;
+	height: 200px;
+	width: 200px;
+	font-size: 100px;
+	border-radius: 50%;
+	border: 6px solid white;
+	color: white;
+}
+#scale {
+	font-size: 325px;
+	color: white;
+	margin-top: 115px;
+	opacity: .1;
+}
+#serving {
+	margin-top: 100px;
+	text-align: center;
+}
+.locations {
+	margin-top: 50px;
+}
+#carousel {
+	max-width: 547px;
+	padding:3px;
+	background-color: white;
+	border-radius: 2px;
+	border: 2px solid #58646D;
+}
+.contact-wrapper {
+	margin-top: 200px;
+}
+#contact {
+	height: 1100px;
+	background-color: #A3AC99;
+	
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#contact h2 {
+	color: white;
+}
+#contact h3 {
+	color: white;
+}
+#send-button {
+	width: 150px;
+	padding: auto;
+	height: 40px;
+	background: transparent;
+	border-radius: 4px;
+	border: 3px solid white;
+	color: white;
+	font-size: 20px;
+	transition: 0.2s ease;
+}
+#send-button:hover {
+	color:#A3AC99;
+	background-color: white;
+}
+.contact-info {
+	float:right;
+	text-align: right;
+}
+#dropdownMenu1 {
+	height: 30px;
+	padding-top: 4px;
+	opacity: .8;
+	background-color: transparent;
+	border-radius: 4px;
+	border: 2px solid white;
+	color: white;
+	margin-top: 10px;
+	float: right;
+	transition: 0.2s ease;
+}
+#dropdownMenu1:hover {
+	opacity: 1;
+	color:#955251;
+	background-color: white;
+}
+.navbar-link {
+	opacity: .8;
+	margin-right: 30px;
+	color: white;
+}
+.navbar-link:hover {
+	color: white;
+	opacity: 1;
+}
+.navbar-link:focus {
+	color: white;
+	opacity: 1;
+	text-decoration: none;
+}
+#tree-logo {
+	width: 70px;
+	height: 70px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+#text-logo {
+	margin-bottom: -5px;
+	margin-top: 2px;
+}
+footer p {
+	margin-top: 25px;
+	text-align: center;
+}
+.social i {
+	font-size: 40px;
+	margin: 10px;
+	transition: 0.2s ease;
+}
+.social a {
+	text-decoration: none;
+}
+.social a:focus {
+	color: inherit;
+	outline:0px !important;
+    -webkit-appearance:none;
+}
+.social i:hover {
+	opacity: .5;
+}
+.social {
+	margin-top: 20px;
+	padding: 10px;
+}
+.facebook {
+	color: #3b5998;
+}
+.facebook:hover {
+	color: #3b5998;
+}
+.yelp {
+	color: #af0606;
+}
+.yelp:hover {
+	color: #af0606;
+}
+.linked-in {
+	color: #4875B4;
+}
+.linked-in:hover {
+	color: #4875B4;
+}
+@media only screen and (max-width:480px){
+    .dropdown-menu{
+        display: block;
+        position: static;
+        background-color:transparent;
+        border:0 none;
+        box-shadow:none;
+        margin-top:0;
+        position:static;
+        width:100%;
+        text-align: right;
+    }
+
+    .navbar-nav .dropdown-menu > li > a{
+        line-height:20px;
+        text-align: right;
+    }
+    .navbar-default .navbar-nav .dropdown-menu > li > a{    
+        color:#777;
+    }
+    #dropdownMenu1 {
+    	margin-top: -10px;
+    	margin-right: 15px;
+    }
+}
