@@ -11,11 +11,13 @@ body {
 }
 
 #header {
+	height: 1080px;
 	text-align: center;
-	width: 100%;
-	height: 700px;
-	background-image: url("../img/header.png");
-	margin-right: none;
+	background: url("../img/header.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #header h1 {
 	font-weight: bolder;
@@ -117,8 +119,8 @@ body {
 	padding: auto;
 	height: 40px;
 	background: transparent;
-	border-radius: 4px;
-	border: 3px solid white;
+	border-radius: 2px;
+	border: 2px solid white;
 	color: white;
 	font-size: 20px;
 	transition: 0.2s ease;
@@ -179,6 +181,8 @@ footer p {
 .social i {
 	font-size: 40px;
 	margin: 10px;
+	transform: scale(1);
+	color: white;
 	transition: 0.2s ease;
 }
 .social a {
@@ -190,29 +194,18 @@ footer p {
     -webkit-appearance:none;
 }
 .social i:hover {
-	opacity: .5;
+	transform: scale(1.1);
 }
 .social {
 	margin-top: 20px;
 	padding: 10px;
 }
-.facebook {
-	color: #3b5998;
-}
-.facebook:hover {
-	color: #3b5998;
-}
-.yelp {
-	color: #af0606;
-}
-.yelp:hover {
-	color: #af0606;
-}
-.linked-in {
-	color: #4875B4;
-}
-.linked-in:hover {
-	color: #4875B4;
+.watermark {
+	max-width: 500px;
+	margin-right: 50px;
+	margin-top: 100px;
+	margin-left: -10px;
+	opacity: .1;
 }
 @media only screen and (max-width:480px){
     .dropdown-menu{
