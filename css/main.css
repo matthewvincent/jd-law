@@ -9,9 +9,20 @@ body {
 	font-family: Open Sans;
 	overflow-x: hidden;
 }
-
+.service-description {
+	font-weight: bold;
+}
+.modal-header {
+	background-color: #58646D;
+}
+.modal-title {
+	
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
 #header {
-	height: 1080px;
+	height: 1060px;
 	text-align: center;
 	background: url("../img/header.png") no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -219,7 +230,11 @@ footer p {
         width:100%;
         text-align: right;
     }
-
+    #dropdownMenu1 {
+    	color: #777;
+    	background-color: white;
+    	opacity: 1;
+    }
     .navbar-nav .dropdown-menu > li > a{
         line-height:20px;
         text-align: right;
@@ -231,4 +246,10 @@ footer p {
     	margin-top: -10px;
     	margin-right: 15px;
     }
+    .contact-wrapper {
+		margin-top: 60px;
+	}
+	#header {
+		max-height: 700px;
+	}
 }
