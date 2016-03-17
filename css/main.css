@@ -8,6 +8,8 @@
 body {
 	font-family: Open Sans;
 	overflow-x: hidden;
+	margin: 0 auto;
+	padding: 0 auto;
 }
 .service-description {
 	font-weight: bold;
@@ -250,6 +252,7 @@ footer p {
 		margin-top: 60px;
 	}
 	#header {
+		background: url("../img/header2.png") no-repeat center center fixed;
 		max-height: 700px;
 	}
 }
