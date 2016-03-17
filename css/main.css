@@ -254,5 +254,7 @@ footer p {
 	#header {
 		background: url("../img/header2.png") no-repeat center center fixed;
 		max-height: 700px;
+		background-size: cover;
+		padding-top: 100px;
 	}
 }
