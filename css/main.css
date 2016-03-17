@@ -254,7 +254,11 @@ footer p {
 	#header {
 		background: url("../img/header3.png") no-repeat center center fixed;
 		max-height: 736px;
-		background-size: cover;
+		position: fixed; 
+		top: 0; 
+		left: 0; 
+		min-width: 100%;
+		min-height: 100%;
 		padding-top: 100px;
 	}
 }
