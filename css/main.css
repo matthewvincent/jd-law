@@ -264,7 +264,9 @@ footer p {
 		margin: 0 auto;
 	}
 	#header {
-		height: 300px;
+		height: 400px;
+    background: url("../img/header.png") no-repeat top center fixed;
+    background-size: auto;
 	}
   #header h1 {
     margin-top: 20px;
