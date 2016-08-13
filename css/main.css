@@ -265,10 +265,9 @@ footer p {
 	}
 	#header {
 		height: 300px;
-		width: 100%;
 	}
   #header h1 {
-    margin-top: -10px;
+    margin-top: 20px;
   }
   .locations {
     margin-top: -80px;
